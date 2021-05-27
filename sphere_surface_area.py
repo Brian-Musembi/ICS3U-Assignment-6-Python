@@ -45,7 +45,7 @@ def main():
                 print("")
         except Exception:
             # output
-            print("{0} is not a number! Please try again.")
+            print("{0} is not a number! Please try again.".format(radius_int))
 
 
 if __name__ == "__main__":
